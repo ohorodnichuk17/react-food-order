@@ -8,6 +8,7 @@ const Modal = ({children, open, className = ''}) => {
         if(open) {
             dialog.current.showModal();
         }
+        return () =>  dialog.current.close();
     }, [open]);
 
 
