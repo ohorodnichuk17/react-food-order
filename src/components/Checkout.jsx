@@ -57,7 +57,7 @@ const Checkout = () => {
                 </div>
 
                 <p className="modal-actions">
-                    <Button type="button" textOnly onCloick={handleClose}>Close</Button>
+                    <Button type="button" textOnly onClick={handleClose}>Close</Button>
                     <Button>Submit Order</Button>
                 </p>
             </form>
