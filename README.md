@@ -1,34 +1,38 @@
-ReactFood
+# ReactFood
 
 ReactFood is a React application for managing a restaurant's menu and cart system. This project includes functionality for displaying meals, adding them to a cart, and checking out. It also features a backend server built with Express to handle meal data and order submissions.
 
-Features
+## Features
 
-Meal Display: Fetch and display meals from a backend server.
-Cart Management: Add and remove meals from the cart, and view cart contents.
-Checkout: Submit orders with customer details.
-Responsive UI: Modern and responsive design with modals for cart and checkout.
-Technologies
+- **Meal Display**: Fetch and display meals from a backend server.
+- **Cart Management**: Add and remove meals from the cart, and view cart contents.
+- **Checkout**: Submit orders with customer details.
+- **Responsive UI**: Modern and responsive design with modals for cart and checkout.
 
-Frontend: React, Context API, Hooks
-Backend: Express, Node.js
-Styling: CSS
-Data Handling: Fetch API, JSON
+## Technologies
 
-Usage
+- **Frontend**: React, Context API, Hooks
+- **Backend**: Express, Node.js
+- **Styling**: CSS
+- **Data Handling**: Fetch API, JSON
 
-Viewing Meals: Navigate to the main page to see the list of available meals.
-Adding to Cart: Click "Add to Cart" on any meal item to add it to your cart.
-Viewing Cart: Click the cart icon in the header to view and manage items in your cart.
-Checkout: Click "Go to Checkout" in the cart modal to proceed with placing an order.
-Backend API Endpoints
+## Usage
 
-GET /meals: Returns a list of available meals.
-POST /orders: Submits a new order with customer details.
-Project Structure
+- **Viewing Meals**: Navigate to the main page to see the list of available meals.
+- **Adding to Cart**: Click "Add to Cart" on any meal item to add it to your cart.
+- **Viewing Cart**: Click the cart icon in the header to view and manage items in your cart.
+- **Checkout**: Click "Go to Checkout" in the cart modal to proceed with placing an order.
 
-Frontend: Contains all React components, hooks, and styles.
-Backend: Contains the Express server and routes.
+## Backend API Endpoints
+
+- `GET /meals`: Returns a list of available meals.
+- `POST /orders`: Submits a new order with customer details.
+
+## Project Structure
+
+- **Frontend**: Contains all React components, hooks, and styles.
+- **Backend**: Contains the Express server and routes.
+
 
 <img width="1439" alt="Screenshot 2024-08-31 at 14 02 39" src="https://github.com/user-attachments/assets/953daadf-aa20-4226-a402-4192841a9f5a">
 
